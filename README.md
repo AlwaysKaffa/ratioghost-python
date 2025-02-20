@@ -81,10 +81,10 @@ By default, qBittorrent **blocks** HTTP trackers through proxies due to security
 4. **What to Expect**:  
    - The proxy server will start.  
    - A GUI will appear where you can:  
-     - Set a **custom port** (default is `8080`).  
      - Enable **"Report 0 Download"**.  
      - Enable **"Pretend to Seed"**.  
      - Save settings (`ratio_ghost.ini` will be updated).  
+     -NOTE: THE  MORE THEN X SEEDER AMOUNT AND UPLOAD MULTIPLIER DOES NOT WORK, FOR SAFETYY REASON KEEP AT 0 
    - The proxy is now **running on `127.0.0.1:8080`**.  
 
 ## 5. (Optional) Create an Executable  
