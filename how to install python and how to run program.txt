@@ -1,0 +1,97 @@
+1. Install Python
+For Windows Users:
+Download Python:
+
+Go to the official Python website.
+Download the latest stable version (e.g., Python 3.11.x).
+Run the Installer:
+
+Run the downloaded installer.
+Important: Check the box “Add Python to PATH” on the first screen.
+Click “Install Now” and follow the prompts.
+Once installation is complete, open Command Prompt and run:
+cmd
+Kopiëren
+python --version
+You should see the installed Python version.
+For macOS/Linux Users:
+macOS: Download the installer from python.org or use Homebrew:
+bash
+Kopiëren
+brew install python
+Linux: Python 3 is usually preinstalled. To verify, run:
+bash
+Kopiëren
+python3 --version
+If needed, install via your package manager (e.g., sudo apt-get install python3 on Ubuntu).
+2. Prepare the Code
+Create a New Folder:
+
+Create a folder (e.g., RatioGhost) on your desktop or another location.
+Save the Code:
+
+Open your favorite text editor (such as Notepad, VS Code, or Sublime Text).
+Copy the entire code (the complete single‑file version) into a new file.
+Save the file as ratio_ghost.py inside your folder.
+3. Run the Code
+Using the Command Prompt / Terminal:
+Open a Command Prompt or Terminal:
+
+Windows: Press Win + R, type cmd, and press Enter.
+macOS/Linux: Open Terminal.
+Navigate to Your Code Folder:
+
+Use the cd command. For example:
+cmd
+Kopiëren
+cd C:\Users\YourUsername\Desktop\RatioGhost
+or on macOS/Linux:
+bash
+Kopiëren
+cd ~/Desktop/RatioGhost
+Run the Script:
+
+Type the following command and press Enter:
+cmd
+Kopiëren
+python ratio_ghost.py
+(On macOS/Linux, you might need to type python3 ratio_ghost.py.)
+What to Expect:
+
+The proxy server will start (you’ll see log messages in the command window).
+A GUI window will appear where you can:
+Set a custom port (or use the default 8080).
+Toggle “Report 0 Download” and “Pretend to Seed” options.
+Save settings (which will be written to ratio_ghost.ini in the same folder).
+The proxy is now running on the specified port (e.g., 8080 or your custom port). Configure your torrent client’s tracker proxy settings to point to 127.0.0.1 on that port.
+4. Creating an Executable (Optional)
+If you want to run the application on a device without installing Python, you can create an executable using PyInstaller.
+
+Install PyInstaller:
+
+Open Command Prompt/Terminal and run:
+bash
+Kopiëren
+pip install pyinstaller
+Create the Executable:
+
+Navigate to your code folder.
+Run:
+bash
+Kopiëren
+pyinstaller --onefile --windowed ratio_ghost.py
+This will create a dist folder containing ratio_ghost.exe (on Windows) or a standalone binary on macOS/Linux.
+Run the Executable:
+
+Double‑click the executable to launch the application.
+The GUI will appear, and the proxy server will start in the background.
+5. Summary
+Install Python from python.org.
+Save the code as ratio_ghost.py in a folder.
+Open a command prompt/terminal, navigate to that folder, and run:
+bash
+Kopiëren
+python ratio_ghost.py
+Use the GUI to update port and options.
+(Optional) Use PyInstaller to create an executable for deployment.
+By following these steps, you should be able to run Ratio Ghost (Python Edition) on any new device—even one that doesn’t have Python preinstalled. If you have any questions or run into issues, feel free to ask!
