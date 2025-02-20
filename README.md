@@ -2,6 +2,7 @@
 ### Tested Only on qBittorrent 5.0.4  
 This guide provides step-by-step instructions to install, configure, and run Ratio Ghost (Python Edition) on a new device.  
 **Important:** To work correctly, you must disable SSRF mitigation in qBittorrent and set up the proxy properly.  (this is done by going to %appdata% > roaming -> qbitorrent -> qbittorent.ini > find the [BitTorrent] header in the ini file and add ; Session\SSRFMitigation=false under it
+ALSO MAKE SURE TO ENTER THE PROXY IN SETTINGS -> CONNECTION AND CLICK CHECKBOX FOR USE FOR BITTORRENT PURPOSES AND USE PROXY FOR GENERAL PURPOSES
 
 ## 1. Install Python  
 ### Windows Users:  
