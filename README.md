@@ -100,7 +100,8 @@ If you want to run Ratio Ghost **without Python installed**, create an executabl
    - Double-click `ratio_ghost.exe` to start the application.  
 
 ## 6. Summary  
-- ✅ **Install Python** from https://www.python.org/downloads/  
+- ✅ **Install Python** from https://www.python.org/downloads/   (make sure to install pip which is used to install depencies, pip is included with python but you have to check the box then simply enter pip install requests pyinstaller configparser tkinter logging threading socket
+in cmd)
 - ✅ **Save the code** as `ratio_ghost.py`  
 - ✅ **Modify qBittorrent settings**  
 - ✅ **Run Ratio Ghost** using:  
